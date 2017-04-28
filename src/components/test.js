@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Test = (props) => {
-  return <div>Test</div>;
+  return <div> ID: {props.match.params.id} </div>;
 };
 
 export default Test;
